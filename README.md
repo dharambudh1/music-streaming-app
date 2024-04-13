@@ -21,4 +21,5 @@ The data presented within the app is dynamically streamed. Any changes made with
 
 This project adheres to SOLID Design Principles and Clean Code Guidelines, ensuring a robust and maintainable codebase. Additionally, the app has been thoroughly tested on both Android and iOS platforms.
 
-
+## Preview
+![alt text](https://i.postimg.cc/L4Cz6c0z/imgonline-com-ua-twotoone-NZY6t-Iv-SMr-K6gi-V.png "img")
