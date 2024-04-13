@@ -36,3 +36,9 @@ This project adheres to SOLID Design Principles and Clean Code Guidelines, ensur
 
 ## Preview
 ![alt text](https://i.postimg.cc/L4Cz6c0z/imgonline-com-ua-twotoone-NZY6t-Iv-SMr-K6gi-V.png "img")
+
+## Git Gist
+- Sample Musics Database for Music Streaming App: 
+  - https://gist.github.com/dharambudh1/52bff86ccd08126cfc6b7ac7ed5c6d1d
+- Sample Users Database for Music Streaming App: 
+  - https://gist.github.com/dharambudh1/ad27a4aaa4f43d8ee839c9a0f8ecbb6f
