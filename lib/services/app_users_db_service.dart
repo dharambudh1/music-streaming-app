@@ -134,8 +134,8 @@ class AppUsersDBService extends GetxService {
     Map<String, dynamic> userInfo = <String, dynamic>{};
     try {
       final QueryDocumentSnapshot<dynamic>? data = await getUserByEmailAndPass(
-        emailAddress: emailAddress,
-        password: password,
+        emailAddress: emailAddress.trim().toLowerCase(),
+        password: password.trim(),
       );
       isAvailable = data != null && data.data() != null;
       if (isAvailable) {
