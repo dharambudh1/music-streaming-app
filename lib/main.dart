@@ -2,6 +2,7 @@ import "dart:async";
 
 import "package:firebase_core/firebase_core.dart";
 import "package:flutter/material.dart";
+import "package:flutter/services.dart";
 import "package:get/get.dart";
 import "package:google_fonts/google_fonts.dart";
 import "package:internet_connection_checker/internet_connection_checker.dart";
@@ -15,6 +16,9 @@ import "package:music_streaming_app/utils/app_snackbar.dart";
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await SystemChrome.setPreferredOrientations(
+    <DeviceOrientation>[DeviceOrientation.portraitUp],
+  );
   final FirebaseOptions options = DefaultFirebaseOptions.currentPlatform;
   await Firebase.initializeApp(options: options);
   injectDependencies();
@@ -38,6 +42,7 @@ class _MyAppState extends State<MyApp> {
       (InternetConnectionStatus status) async {
         final bool value = status == InternetConnectionStatus.connected;
         AppGlobalDBWatcher().connected(value);
+
         AppSnackbar().snackbar("Internet ${status.name}");
         if (AppGlobalDBWatcher().connected.value) {
           await AppGlobalDBWatcher().onConnected(ack: AppSnackbar().snackbar);
