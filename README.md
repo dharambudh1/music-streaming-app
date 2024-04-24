@@ -21,18 +21,18 @@ The data presented within the app is dynamically streamed. Any changes made with
 
 This project adheres to SOLID Design Principles and Clean Code Guidelines, ensuring a robust and maintainable codebase. Additionally, the app has been thoroughly tested on both Android and iOS platforms.
 
+## Important Links:
+- [Download Android App](https://drive.google.com/file/d/1f586BwOAI65pBWWsPQBEHvCW73ggvMaG/view?usp=sharing)
+
 ## Login Credentials
 - User 1 (Michael De Santa):
-  - Email: michael@yopmail.com
-  - Password: michael
+  - Email: michael@yopmail.com   - Password: michael
 
 - User 2 (Franklin Clinton):
-  - Email: franklin@yopmail.com
-  - Password: franklin
+  - Email: franklin@yopmail.com   - Password: franklin
 
 - User 3 (Trevor Philips):
-  - Email: trevor@yopmail.com
-  - Password: trevor
+  - Email: trevor@yopmail.com   - Password: trevor
 
 ## Preview
 ![alt text](https://i.postimg.cc/L4Cz6c0z/imgonline-com-ua-twotoone-NZY6t-Iv-SMr-K6gi-V.png "img")
